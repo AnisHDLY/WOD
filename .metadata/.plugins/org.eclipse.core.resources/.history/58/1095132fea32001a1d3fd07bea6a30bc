@@ -1,0 +1,28 @@
+package projetenumere;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		testSemaine();
+		testCivilité();
+		testCivilitév2();
+	}
+	
+	
+	static void testCivilitév2() {
+		Civilité mrbis=Civilité.mr;
+		String str=Civilité.mr.toString();
+		System.out.println(Civilité.mr.toString());
+	}
+	
+	static void testCivilité() {
+		System.out.println(Civilité.mr);
+		System.out.println(Civilité.mr.toString);
+	}
+
+	static void testSemaine() {
+		System.out.println(Semaine.we);
+	}
+
+}

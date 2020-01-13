@@ -1,0 +1,10 @@
+package projetSingleton;
+
+public class Personne {
+	
+	private String nom="dupond";
+
+	
+	public personne() {
+
+}

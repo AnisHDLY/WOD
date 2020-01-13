@@ -1,0 +1,8 @@
+package projetenumere;
+
+public class Civilité {
+
+	mr,
+	mlle,
+	mme
+}

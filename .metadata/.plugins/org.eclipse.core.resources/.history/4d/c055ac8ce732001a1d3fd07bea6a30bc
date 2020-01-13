@@ -1,0 +1,5 @@
+package projetenumere;
+
+public enum Semaine {
+
+}

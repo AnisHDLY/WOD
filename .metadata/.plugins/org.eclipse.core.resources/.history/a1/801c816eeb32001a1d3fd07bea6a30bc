@@ -1,0 +1,37 @@
+package projetenumere;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		//testSemaine();
+		//testCivilité();
+		//testCivilitév2();
+		testFormationv1();
+	}
+	
+	static void testFormationv1() {
+		
+		System.out.println(Formation.java);
+		Formation f=Formation.python;
+		System.out.println(f.toString());
+		System.out.println(f.name());
+	}
+	
+	
+	static void testCivilitév2() {
+		Civilité mrbis=Civilité.mr;
+		String str=Civilité.mr.toString();
+		System.out.println(Civilité.mr.toString());
+	}
+	
+	static void testCivilité() {
+		System.out.println(Civilité.mr);
+		System.out.println(Civilité.mr);
+	}
+
+	static void testSemaine() {
+		System.out.println(Semaine.we);
+	}
+
+}

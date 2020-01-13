@@ -1,0 +1,6 @@
+
+public class Eleve {
+	private String nom;
+	private int note; 
+
+}

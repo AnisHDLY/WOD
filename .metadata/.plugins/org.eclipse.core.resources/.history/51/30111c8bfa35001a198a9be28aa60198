@@ -1,0 +1,7 @@
+package model;
+
+public class Velo {
+	private String marque;
+	private int prix;
+
+}

@@ -1,0 +1,11 @@
+package projetenumere;
+
+public enum Formation {
+	
+	java,
+	python, 
+	cpp,
+	html,
+	csharp
+
+}

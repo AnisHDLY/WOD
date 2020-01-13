@@ -1,0 +1,15 @@
+package projet1;
+import java.util.ArrayList*;
+public class Test1 {
+
+	public static void main(String[] args) {
+		System.out.println("hello");
+		System.out.println("hello 2");
+		
+		double x=java.lang.Math.pow(2, 3);
+		System.out.println(x);
+		
+		ArrayList a;
+	}
+
+}

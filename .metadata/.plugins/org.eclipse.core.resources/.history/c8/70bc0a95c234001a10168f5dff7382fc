@@ -1,0 +1,40 @@
+package projetCommande;
+
+public class Personne {
+private String nom;
+private String prenom;
+
+
+//toString
+public String toString() {
+	return "Personne nom=" + nom + ", prenom=" + prenom ;
+}
+
+//Constructor
+public Personne(String nom, String prenom) {
+	this.nom = nom;
+	this.prenom = prenom;
+}
+
+//getteur
+
+public String getNom() {
+	return nom;
+}
+public String getPrenom() {
+	return prenom;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+

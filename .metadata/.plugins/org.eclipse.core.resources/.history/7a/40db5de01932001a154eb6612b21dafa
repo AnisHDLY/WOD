@@ -1,0 +1,17 @@
+package user;
+
+import model.*;
+
+public class TestPersonnev5 {
+
+	public static void main(String[] args) {
+		// test1();
+
+	}
+
+	static void test1() {
+		Adress adr = new Adress(161, "verdun", "94200");
+		Personne p = new Personne("dupond", "toto", adr);
+		System.out.println(p);
+	}
+}

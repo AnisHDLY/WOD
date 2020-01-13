@@ -1,0 +1,11 @@
+package model;
+
+public class Status {
+private int experience;
+private boolean isCadre;
+
+
+public final double nbrexp =3;
+
+
+}

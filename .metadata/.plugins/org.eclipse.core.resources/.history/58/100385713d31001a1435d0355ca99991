@@ -1,0 +1,26 @@
+package model;
+
+public class Personne {
+
+	
+	private String nom;
+	private String prenom;
+	private Adress adress;
+	
+	public Personne(String nom, String prenom, Adress adress) {
+		this.nom = nom;
+		this.prenom = prenom;
+		this.adress = adress;
+	}
+
+	
+	public String toString() {
+		String reponse="";
+		reponse+= (adress!==null)?  "\nadress=" + adress.toString():"" ;
+		return "Personnev5 [nom=" + nom + ", prenom=" + prenom;
+		
+	}
+	
+	
+	
+}

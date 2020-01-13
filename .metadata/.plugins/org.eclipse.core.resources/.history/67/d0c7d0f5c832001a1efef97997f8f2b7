@@ -1,0 +1,17 @@
+
+public class Imprimante {
+	private String impr;
+
+	public Imprimante(String impr) {
+		this.impr = impr;
+	}
+
+	@Override
+	public String toString() {
+		return "Imprimante [impr=" + impr + "]";
+	} 
+	
+	
+	
+
+}

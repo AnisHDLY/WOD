@@ -1,0 +1,16 @@
+
+public class Poste {
+
+	private String  nom;
+
+	public Poste(String nom) {
+		this.nom = nom;
+	
+	}	
+	// methodes
+	
+		public void print (String impression){
+			
+	
+		}		
+}

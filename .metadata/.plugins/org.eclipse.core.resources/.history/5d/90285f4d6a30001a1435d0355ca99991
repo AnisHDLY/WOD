@@ -1,0 +1,19 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Article ();
+	}
+
+	static void Article () {
+		Article a1 = new Article () ;
+		a1.marque  = "dior";
+		a1.prix=  "2";
+		System.out.println(a1.getInfo());
+		
+		
+		 
+	}
+}
+

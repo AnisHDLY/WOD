@@ -1,0 +1,14 @@
+package tpParking;
+
+public class Parking {
+private String nom;
+private Voiture [] tab;
+
+public Parking(String nom, Voiture[] tab) {
+	this.nom = nom;
+	this.tab = tab;
+} 
+
+
+
+}

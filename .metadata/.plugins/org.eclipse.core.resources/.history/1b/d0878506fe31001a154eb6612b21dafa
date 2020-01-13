@@ -1,0 +1,8 @@
+package tpParking;
+
+public class InfoProprio {
+	private String nom;
+	private String prenom;
+	
+
+}

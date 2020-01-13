@@ -1,0 +1,14 @@
+package user;
+
+public class Snippet {
+	public int getCount() {
+			// chercher le nombre de personne au sein fu tableau
+			int compteur = 0; // compteur
+			for (Personne p : tab)
+				if (p != null)
+					compteur++;
+			return compteur;
+		}
+	
+}
+

@@ -1,0 +1,10 @@
+package model;
+
+public class Adress {
+	
+	private String nom;
+	private String prenom;
+	private String rue;
+	private String cp;
+
+}

@@ -1,0 +1,7 @@
+
+public class Imprimante {
+	private String impr; 
+	
+	
+
+}

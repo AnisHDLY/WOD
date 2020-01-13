@@ -1,0 +1,19 @@
+
+public class Article {
+	
+	private String marque;
+	private int prix ;
+	private int prixMin =0;
+	private int prixPivot =100;
+	private String status ; 
+	
+
+
+	public String toString() { // normalisé d'une maanière general
+		String reponse = "MARQUE: " + marque;
+		reponse += "PRIX : " + prix;
+		reponse += "STATUT: " + status;
+		return reponse;
+}
+}
+		

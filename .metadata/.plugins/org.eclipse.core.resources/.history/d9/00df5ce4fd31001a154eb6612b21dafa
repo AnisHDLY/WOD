@@ -1,0 +1,9 @@
+package tpParking;
+
+public class Parking {
+private String nom;
+private Voiture [] tab; 
+
+
+
+}

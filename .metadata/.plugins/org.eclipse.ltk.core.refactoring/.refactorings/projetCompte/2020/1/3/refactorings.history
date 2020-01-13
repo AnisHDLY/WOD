@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;model.CB&apos; to &apos;CompteCB&apos;&#x0D;&#x0A;- Original project: &apos;projetCompte&apos;&#x0D;&#x0A;- Original element: &apos;model.CB&apos;&#x0D;&#x0A;- Renamed element: &apos;model.CompteCB&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CB&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;model{CB.java[CB" matchStrategy="1" name="CompteCB" qualified="false" references="true" similarDeclarations="false" stamp="1578930106299" textual="false" version="1.0"/>
+</session>

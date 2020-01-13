@@ -1,0 +1,13 @@
+package model;
+
+public class A {
+
+	public static void main(String[] args) {
+		 test1();
+
+	}
+	static void test1() {
+		System.out.println("je suis m1");
+	}
+
+}

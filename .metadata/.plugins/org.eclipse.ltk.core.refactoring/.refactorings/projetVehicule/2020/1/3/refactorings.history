@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;model.Bateau.EBateau&apos; in &apos;model.Bateau&apos;&#x0D;&#x0A;- Original project: &apos;projetVehicule&apos;&#x0D;&#x0A;- Original element: &apos;model.Bateau.EBateau&apos;&#x0D;&#x0A;- Getter method name: &apos;getEBateau&apos;&#x0D;&#x0A;- Setter method name: &apos;setEBateau&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;EBateau&apos;" flags="589830" getter="getEBateau" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;model{Bateau.java[Bateau^EBateau" insertion="-1" setter="setEBateau" stamp="1578916542575" version="1.0" visibility="1"/>
+</session>

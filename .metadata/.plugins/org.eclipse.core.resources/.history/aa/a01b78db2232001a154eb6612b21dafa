@@ -1,0 +1,22 @@
+package projetStatic;
+
+public class A {
+	
+	public static void m1() {
+		System.out.println("je suis m1 static"); // methode de class car ya Static
+	}
+
+	public static void m2() {
+		System.out.println("je suis m2 static");
+	}
+
+	public void m3() {   //methode d instance
+		System.out.println("je suis m3");
+	}
+
+	public void m4() {
+		System.out.println("je suis m4");
+	}
+}
+// kesk une methode static(de class) et une methode non static(d instance)??
+//Est ce que m1 peut appelet m2 ou m3 scheme memoir

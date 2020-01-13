@@ -1,0 +1,23 @@
+
+public class Ville {
+	private String Ville;
+	private String capitale;
+	private String pays;
+	private double nbrhabitant;
+	private String categorie;
+	private Boolean isCapital;  //commence par is si c est un attribu de type boolean
+	
+	
+
+
+	public Ville (String ville, String capitale, double nbrhabitant, String pays){ 
+		this.Ville = Ville; 
+	}	
+	
+	public void setVille (String Ville){
+		this.Ville = Ville;
+		
+		
+	
+}
+}

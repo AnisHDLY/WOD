@@ -1,0 +1,15 @@
+package projetenumere;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		testSemaine();
+	}
+
+	static void testSemaine() {
+		System.out.println(Semaine.we);
+
+	}
+
+}

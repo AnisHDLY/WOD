@@ -1,0 +1,16 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Article ();
+	}
+
+	static void Article () {
+		
+		marque a1 = new marque();
+		
+		Article [] tab= {a1; a2; a3}; 
+	}
+}
+

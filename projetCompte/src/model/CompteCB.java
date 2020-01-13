@@ -1,0 +1,5 @@
+package model;
+
+public class CompteCB extends Comptesimple {
+
+}

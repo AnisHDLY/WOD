@@ -1,0 +1,46 @@
+package model;
+
+public class Personne {
+
+	private String nom;
+	private String prenom;
+	private Adress adress;
+
+	
+	//Accesseur
+	public Adress getAdress() {
+		return adress;
+	}
+
+	public void setAdress(Adress adress) {
+		this.adress = adress;
+	}
+	
+
+	public String getPrenom() {
+		return prenom;
+	}
+	
+	public String getNom() {
+		return nom;
+	}
+
+	public Personne(String nom, String prenom, Adress adress) {
+		this.nom = nom;
+		this.prenom = prenom;
+		this.adress = adress;
+	}
+
+	public Personne(String nom, String prenom) {
+		this.nom = nom;
+		this.prenom = prenom;
+	}
+
+	public String toString() {
+		String reponse = nom + "    " + prenom;
+		// reponse+= (adress!=null)? "\nadress=" + adress.toString():"" ;
+		return reponse;
+
+	}
+
+}

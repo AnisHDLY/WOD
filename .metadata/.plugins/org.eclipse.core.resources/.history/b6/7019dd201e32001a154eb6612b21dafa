@@ -1,0 +1,19 @@
+package projetStatic;
+
+import java.util.Random;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		test1();
+	}
+	static void test1(){
+		A.m1();
+		Random r= new Random();
+		int x=r.nextInt(10);
+		
+		double d=Math.pow(2.3);
+	}
+
+}

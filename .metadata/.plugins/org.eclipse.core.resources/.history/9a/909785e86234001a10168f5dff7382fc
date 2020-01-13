@@ -1,0 +1,37 @@
+package projetPersonnev1;
+
+public class Personne {
+	// valeur par defaut
+	//initialiser
+	String nom ; // initialiseur
+	String prenom ; // attribus ou variables locales
+	int age;
+	String status;
+	int ageMineur = 18;
+
+	Personne() { // =constructeur par defaut car zero méthode, quand il y a void
+					// c est une methode, prend à l identique le nom de la classe	
+	}
+
+	Personne(String nom, String prenom) {// constructeur d initialisation
+		this.nom =nom;
+		this.prenom= prenom; //this renvoi à un attribu
+	}
+	
+	Personne(String nom, String prenom, int age) {// age en plus
+		this.nom =nom;
+		this.prenom= prenom;//
+	    this.age=age ; 
+	}
+
+	String getInfo() { // getinfo nous retourne la concataination des attribus
+		String reponse = "NOM: "  +nom;
+				reponse += "PRENOM : " +prenom;
+				reponse += "AGE: " +age;
+				reponse += "\nSTATUS";
+				reponse += (age < ageMineur) ? "MINEUR " : "majeur"; //condition ternaire ? :
+		
+		
+		return  reponse ;
+	}
+}

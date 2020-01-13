@@ -1,0 +1,25 @@
+package model;
+
+public class Vehicule {
+	
+private String marquevehicule;
+private int prix;
+
+
+public Vehicule(String marquevehicule, int prix) {
+	this.marquevehicule = marquevehicule;
+	this.prix = prix;
+}
+
+
+
+public String toString() {
+	return "Vehicule [marquevehicule=" + marquevehicule + ", prix=" + prix + "]";
+} 
+
+
+
+
+
+
+}

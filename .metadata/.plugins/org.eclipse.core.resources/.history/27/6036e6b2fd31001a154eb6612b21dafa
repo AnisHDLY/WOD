@@ -1,0 +1,10 @@
+package tpParking;
+
+public class Voiture {
+	
+	private double vitesse;
+	private double vitesseMin =0;
+	private double vitesseMax= 300;
+	private int vitesseFlash=120; 
+
+}

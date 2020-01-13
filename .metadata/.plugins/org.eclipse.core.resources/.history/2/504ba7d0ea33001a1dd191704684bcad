@@ -1,0 +1,37 @@
+package user;
+
+import model.*;
+
+public class Test {
+
+	public static void main(String[] args) {
+		test3();
+
+
+	}
+	static void test3() {
+		Adresse adr = new Adresse(161, " verdun ", "94200");
+		Info inf=new Info(70, 1.7);
+		Personne p = new Personne("dupond", "toto", adr,inf);
+		//p
+		//lire la taille et l afficher
+		//modifier le poids
+	}
+	
+	static void test2() {
+		Adresse adr = new Adresse(161, " verdun ", "94200");
+		Personne p1 = new Personne("dupond", "toto", adr);
+		Personne p2 = new Personne("dupond", "titi", adr);
+		System.out.println(p1);
+		System.out.println(p2);
+	}
+
+
+	static void test1() {
+		Adresse adr = new Adresse(161, " verdun ", "94200");
+		Info inf=new Info(70, 1.7);
+		Personne p = new Personne("dupond", "toto", adr,inf);
+		System.out.println(p);
+	}
+
+}

@@ -1,0 +1,14 @@
+package projetenumere;
+
+
+public enum Semaine {
+	
+	//instance
+	lundi,
+	mardi,
+	mercredi,
+	jeudi,
+	vendredi,
+	we
+
+}

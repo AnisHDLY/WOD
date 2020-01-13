@@ -1,0 +1,20 @@
+package tpParking;
+
+import java.util.Arrays;
+
+public class Parking {
+	private String nom;
+	private Voiture[] tab;
+
+	public Voiture voiture;
+
+	public Parking(String nom, Voiture[] tab) {
+		this.nom = nom;
+		this.tab = tab;
+	}
+
+	public String toString() {
+		return "Parking [nom=" + nom + ", tab=" + Arrays.toString(tab) + ", voiture=" + voiture + "]";
+	}
+
+}

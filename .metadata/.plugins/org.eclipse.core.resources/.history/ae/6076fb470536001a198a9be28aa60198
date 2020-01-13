@@ -1,0 +1,8 @@
+package model;
+
+public class Voiture {
+	private String marque;
+	private int prix;
+	
+
+}

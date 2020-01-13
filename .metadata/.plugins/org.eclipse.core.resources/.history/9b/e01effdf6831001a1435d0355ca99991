@@ -1,0 +1,33 @@
+package Model;
+
+public class Personne {
+	
+	private String nom; 
+	private String prenom; 
+	private int age;
+	private int id;
+	
+	
+
+	
+	public Personne(int id, String nom, String prenom, int age) {
+		this.nom = nom;
+		this.prenom = prenom;
+		this.age = age;
+		this.id = id;
+	}
+
+	public String toString() {
+		return "Personne [nom=" + nom + ", prenom=" + prenom + ", age=" + age + ", id=" + id + "]";
+	}
+
+	
+	
+	
+	}
+	
+	
+	
+	
+	
+

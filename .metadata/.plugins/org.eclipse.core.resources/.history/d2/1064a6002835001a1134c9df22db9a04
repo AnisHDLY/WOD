@@ -1,0 +1,35 @@
+package projetCommande;
+
+public class Commande {
+
+	private String client;
+	private Boisson boisson;
+	private Plats plat;
+	private Desserts dessert;
+
+	// toString
+	public String toString() {
+		return "Commande client=" + client + "\n boisson=" + boisson + "\n plat=" + plat + "\n Dessert=" + dessert;
+	}
+
+	// constructeurs
+	public Commande(String client, String boisson, String plat, String dessert) {
+		this.client = client;
+		this.boisson = boisson;
+		this.plat = plat;
+		this.dessert = dessert;
+	}
+
+	public String getBoisson() {
+		return boisson;
+	}
+
+	public String getPlat() {
+		return plat;
+	}
+
+	public String getDessert() {
+		return dessert;
+	}
+
+}

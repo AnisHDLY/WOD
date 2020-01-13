@@ -1,0 +1,31 @@
+package projetenumere;
+
+public enum Formation {
+	
+	java(500, "Paris"),
+	python(300, "Marseille"),
+	cpp(100),
+	html(0),
+	csharp(5); // point virgule
+	
+	private int prix;
+	private String lieu ="NA";
+	
+	private Formation (int prix, String lieu){ // constructeur 
+		this.prix=prix;
+		this.lieu=lieu;
+		}
+	
+
+	public int getPrix(){
+		return prix;
+	}
+	
+	private Formation (int prix){ // constructeur par defaut
+	this.prix=prix;
+	}
+	
+	private Formation() {
+	
+	}
+}

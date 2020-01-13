@@ -1,0 +1,11 @@
+package model;
+
+public enum EBateau {
+	petit(2), moyen(10), grand(50);
+	private int longueur;
+
+	private EBateau(int longueur) {
+		this.longueur = longueur;
+	}
+
+}

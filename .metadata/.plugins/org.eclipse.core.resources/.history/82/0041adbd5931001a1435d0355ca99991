@@ -1,0 +1,9 @@
+package model;
+
+public class Salarie {
+	private int id; 
+	private String nom;
+	private String prenom;
+	
+
+}

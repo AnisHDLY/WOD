@@ -1,0 +1,9 @@
+package model;
+
+public enum CB {
+	Amex(5),
+	MC(10),
+	VISA(15);
+	
+
+}

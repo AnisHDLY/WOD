@@ -1,0 +1,23 @@
+
+public class Eleve {
+	private String nom;
+	private int note;
+	
+	
+	public Eleve(String nom, int note) {
+		this.nom = nom;
+		this.note = note;
+	}
+
+
+	@Override
+	public String toString() {
+		return "la note de: "+ nom + "est:"  + note; 
+	} 
+	
+	
+	
+	
+	
+
+}

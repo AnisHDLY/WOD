@@ -1,0 +1,34 @@
+package model;
+
+public class Vehicule {
+
+	private String marquevehicule;
+	private int prix;
+
+	public Vehicule() {
+	}
+
+	public Vehicule(String marquevehicule, int prix) {
+		this.marquevehicule = marquevehicule;
+		this.prix = prix;
+	}
+
+	public boolean gpsOnOf() (String gps){
+		boolean reponse = false;
+		int vitesse;
+		if (int vitesse>0))
+		
+		
+		return reponse;
+	}
+
+	public String avancer(Vehicule v) {
+		return "je roule";
+
+	}
+
+	public String toString() {
+		return "Vehicule [marquevehicule=" + marquevehicule + ", prix=" + prix + "]";
+	}
+
+}

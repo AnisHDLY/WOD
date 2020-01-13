@@ -1,0 +1,37 @@
+package projetCommande;
+
+import java.util.Scanner;
+
+public class TestCommande {
+
+	public static void main(String[] args) {
+		test();
+		//
+		// Client P = new Client("Hedhli", "Anis");
+		// Commande c = new Commande("p", "boisson", "plat", "dessert");
+	}
+
+	static void test() {
+		// Plats
+		Scanner sc = new Scanner(System.in);
+		Plats[] tab = Plats.values();
+		System.out.println("Veullez choisir votre plat: ");
+		for (Plats p : tab)
+			System.out.println(p.name());
+		String choixp = sc.nextLine();
+
+	}
+
+}
+
+// Boisson[] boiss = Boisson.values();
+// System.out.println("veuillez choisir votre boisson: ");
+// for (Boisson b : boiss) {
+// System.out.println(b.name());
+//
+// }
+//
+// Desserts[] dess = Desserts.values();
+// System.out.println("veuillez choisir votre dessert: ");
+// for (Desserts d : dess) {
+// System.out.println(d.name());

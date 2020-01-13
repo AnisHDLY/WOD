@@ -1,0 +1,20 @@
+package model;
+
+public class Adress {
+	
+	private String nom;
+	private String prenom;
+	private String rue;
+	private String cp;
+	public Adress(String nom, String prenom, String rue, String cp) {
+		this.nom = nom;
+		this.prenom = prenom;
+		this.rue = rue;
+		this.cp = cp;
+	}
+	
+	public String toString() {
+		return "Adress [nom=" + nom + ", prenom=" + prenom + ", rue=" + rue + ", cp=" + cp + "]";
+	}
+
+}

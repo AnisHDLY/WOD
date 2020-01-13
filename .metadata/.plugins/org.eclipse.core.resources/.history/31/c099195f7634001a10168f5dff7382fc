@@ -1,0 +1,65 @@
+package tpParking;
+
+public class Voiture {
+
+	private double vitesse;
+	private double flash;
+	public final double vitesseMin = 0;
+	public final double vitesseMax = 300;
+	public final int vitesseFlash = 120;
+
+	private InfoProprio infoProprio;
+	private InfoVoiture infoVoiture;
+
+	// methode
+
+	public void setVitesse(double vitesse) {
+		// test des bornes min et max de la vitesse
+
+	}
+
+	// Accesseurs
+	public double getFlash() {
+		return flash;
+	}
+
+	public void setVitesse(double vitesse) {
+		this.vitesse = vitesse;
+	}
+
+	public InfoVoiture getInfoVoiture() {
+		return infoVoiture;
+	}
+	
+
+	public InfoProprio getInfoProprio() {
+		return infoProprio;
+	}
+
+	// Constructeur
+	
+		
+		
+		
+	public Voiture(InfoProprio infoProprio, String matricule, String marque) {
+		this.infoProprio = infoProprio;
+		this.infoVoiture = new InfoVoiture(matricule, marque);
+	}
+
+	
+
+	public Voiture(double vitesse, double flash, InfoProprio infoProprio, String marque, String matricule) {
+		this.vitesse = vitesse;
+		this.flash = flash;
+		this.infoProprio = infoProprio;
+		this.infoVoiture = new InfoVoiture(marque, matricule);
+	}
+
+	// toString
+	public String toString() {
+		return "Voiture [vitesse=" + vitesse + ", vitesseMin=" + vitesseMin + ", vitesseMax=" + vitesseMax
+				+ ", vitesseFlash=" + vitesseFlash + ", flash=" + flash + ", infoProprio=" + infoProprio
+				+ ", infovoiture=" + infovoiture + "]";
+	}
+
+}

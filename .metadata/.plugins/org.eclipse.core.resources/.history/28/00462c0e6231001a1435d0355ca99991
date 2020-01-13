@@ -1,0 +1,17 @@
+package User;
+
+import Model.Groupe;
+
+public class Test {
+
+	public static void main(String[] args) {
+		test1();
+
+	}
+
+	static void test1() {
+		Groupe g = new Groupe("CGI", 10);
+
+	}
+
+}

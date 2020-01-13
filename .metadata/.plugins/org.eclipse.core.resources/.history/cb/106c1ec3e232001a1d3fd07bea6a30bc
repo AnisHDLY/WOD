@@ -1,0 +1,17 @@
+package projetPersonnev1;
+
+public class Personne {
+
+	String nom;
+	String prenom;// attribus ou variables locales
+	int age;
+
+	String getInfo() { // getinfo nous retourne la concataination des attribus
+		String reponse = "NOM"+ +nom;
+				reponse += "PRENOM" +prenom;
+				reponse += "AGE" +age;
+		
+		
+		return  reponse ;
+	}
+}

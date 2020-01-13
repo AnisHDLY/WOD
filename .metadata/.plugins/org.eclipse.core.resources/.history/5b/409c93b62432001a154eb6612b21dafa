@@ -1,0 +1,28 @@
+package projetStatic;
+
+public class Personne {
+
+	
+	private static String nom= "dupond";
+	private String prenom;
+	
+	
+	//constructeur
+	public Personne( String prenom) {
+		this.prenom = prenom;
+	}
+	
+	//methode toString
+	
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+
+
+
+	public String toString() {
+		return "Personne [nom=" + nom + ", prenom=" + prenom + "]";
+	}
+	
+	
+}

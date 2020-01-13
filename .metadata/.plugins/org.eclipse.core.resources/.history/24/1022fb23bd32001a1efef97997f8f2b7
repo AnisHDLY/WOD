@@ -1,0 +1,67 @@
+package projet2;
+
+import java.util.Scanner;
+
+public class Tpinfo {
+
+	public static void main(String[] args) {
+
+		tpCalcul();
+	}
+
+	static void tpCalcul() {
+
+		Scanner clavier = new Scanner(System.in);
+		System.out.println("saisir nbr1:= ");
+		double nbr1 = clavier.nextDouble();
+		System.out.println("saisir nbr2:= ");
+		double nbr2 = clavier.nextDouble();
+
+		System.out.println("saisir operateur:= ");
+		Scanner clavier2 = new Scanner(System.in); // declaration d un nouveau
+													// clavier pour les String
+		String operateur = clavier2.nextLine();
+
+		double resultat = calcul(nbr1, nbr2, operateur);
+		System.out.println("le resultat est:  " + resultat);
+
+	}
+
+	private static double calcul(double nbr1, double nbr2, String operateur) {
+		double resultat = 0;
+		switch (operateur) {
+		case "+":
+		case "add":
+			resultat = nbr1 + nbr2;
+			break;
+		case "-":
+		case "sous":
+			resultat = nbr1 - nbr2;
+			break;
+		case "*":
+		case "mult":
+			resultat = nbr1 * nbr2;
+			break;
+		}
+
+		return 0;
+	}
+
+	static double sous(double a, double b) {
+		return a - b;
+	}
+
+	static double multi(double a, double b) {
+		return a * b;
+	}
+
+	static double div(double a, double b) {
+		return a / b;
+	}
+
+	static double add(double a, double b) {
+		return a + b;
+
+	}
+
+}

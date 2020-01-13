@@ -1,0 +1,22 @@
+package model;
+
+public class Bateau extends Vehicule {
+	private String marque;
+	private int prix;
+	private  EBateau ebateau;
+
+	
+	
+	
+	
+	public Bateau(String marque, int prix, String eBateau) {
+		this.marque = marque;
+		this.prix = prix;
+		EBateau = eBateau;
+	}
+
+	public String toString() {
+		return "Bateau [marque=" + marque + ", prix=" + prix + ", EBateau=" + EBateau + "]";
+	}
+
+}
