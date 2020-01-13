@@ -5,11 +5,8 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="C:\Users\utilisateur\Desktop\CGI\workspace2\projetVehiculeSteeve"/>
-			<item value="C:\Users\utilisateur\Desktop\CGI\workspace2\projetCommande_jacky"/>
-			<item value="E:\ajc\workspace2\projetCommande"/>
-			<item value="C:\Users\utilisateur\Desktop\CGI\workspace2\projetCommande"/>
-			<item value="C:\Users\utilisateur\Desktop\CGI\workspace2\projetCommande_Anis"/>
+			<item value="C:\Users\anisa\Desktop\workspace3"/>
+			<item value="C:\Users\anisa\Desktop\workspace2\projetCommande"/>
 			<item value="C:\Users\anisa\Desktop\workspace1\projetPersonnev3"/>
 			<item value="C:\Users\anisa\Desktop\workspace1\projetTpArticleJackyv2"/>
 			<item value="C:\Users\anisa\Desktop\workspace1\projetTpArticleJacky"/>
@@ -25,6 +22,9 @@
 			<item value="C:\Users\utilisateur\Desktop\projetPersonnev6jacky"/>
 			<item value="C:\Users\utilisateur\Desktop\projetVilleSebastian"/>
 			<item value="E:\03012020\projetVilleSebastian"/>
+			<item value="E:\03012020\projetTpArticleJackyv2"/>
+			<item value="E:\03012020\projetTpArticleJacky"/>
+			<item value="C:\Users\utilisateur\Desktop\CGI\workspace1\projetJacky"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

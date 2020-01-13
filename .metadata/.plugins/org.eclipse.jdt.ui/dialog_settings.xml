@@ -9,9 +9,6 @@
 		<item value="false" key="updateTextualMatches"/>
 		<item value="1" key="updateSimilarElementsMatchStrategy"/>
 	</section>
-	<section name="SelfEncapsulateFieldWizard">
-		<item value="false" key="GenerateJavadoc"/>
-	</section>
 	<section name="GenerateConstructorUsingFieldsSelectionDialog">
 		<item value="true" key="OmitCallToSuper"/>
 	</section>
@@ -53,8 +50,8 @@
 		<item value="516" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="691" key="DIALOG_HEIGHT"/>
-		<item value="500" key="DIALOG_X_ORIGIN"/>
-		<item value="87" key="DIALOG_Y_ORIGIN"/>
+		<item value="646" key="DIALOG_X_ORIGIN"/>
+		<item value="41" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.text.QuickOutline">
 		<item value="true" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
@@ -78,16 +75,6 @@
 		<item value="false" key="SkipNull"/>
 		<item value="10" key="LimitValue"/>
 		<item value="false" key="FinalModifier"/>
-	</section>
-	<section name="AddUnimplementedConstructorsDialog">
-		<item value="false" key="OmitCallToSuper"/>
-	</section>
-	<section name="DialogBounds_AddUnimplementedConstructorsDialog">
-		<item value="519" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="627" key="DIALOG_HEIGHT"/>
-		<item value="306" key="DIALOG_X_ORIGIN"/>
-		<item value="101" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
